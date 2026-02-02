@@ -10,19 +10,39 @@ body {
 h1 {
     text-align: center;
     margin-top: 40px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
  }
  
 .navbar { 
-    text-align: right;
+    text-align: center;
+    background-color: rgb(251, 219, 180);
+    display: flex; 
+    margin: 40px;
+    text-decoration: none;
  }
 
- a {  
+a {  
     text-decoration: none;
     color: black;
     font-weight: 700;
-    padding-bottom: 4px;
-    margin: 40px;
+    margin: 20px;
+    font-size: 20px;
 }
-.container {
-    background-color: burlywood;
- }
+
+a, img { 
+    padding-top: 10px;
+    margin: 20px;
+    padding: 20px;
+    display: inline-block;
+}
+
+img { 
+    border: 3px solid black;
+    padding-top: 10px;
+    padding: 20px;
+    width: 250px;
+    display: inline-block;
+}
+
+

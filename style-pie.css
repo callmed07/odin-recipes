@@ -5,7 +5,7 @@
 
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: antiquewhite;
+    background-color: #faebd7;
     margin-bottom: 40px;
 }
   /* { } */
@@ -15,6 +15,10 @@ h1, h2 {
     padding-bottom: 8px;
  }
 
+h1  { 
+    margin-top: 60px;
+}
+
 h3 { 
    margin-left: 20px;
    margin-top: 10px;
@@ -22,7 +26,7 @@ h3 {
 }
 
 img { 
-    margin-left: 40px;
+    margin-left: 200px;
     padding: 4px;
 }
 
@@ -33,22 +37,36 @@ a {
     font-size: 20px;
     padding-bottom: 4px;
     margin: 20px;
+   
 }
+
+.homepage {
+    text-align: right;
+    font-size: 20px;
+    padding-bottom: 2px;
+    margin: 30px;
+    margin-right: 100px;
+ }
 
 ul, li, ol { 
     margin-left: 40px;
     padding: 4px;
  }
 
+.product { 
+    text-align: center;
+    border: 10px;
+    padding: 30px;
+} 
+
 .description { 
     text-align: center;
-      border: 20px;
+    border: 10px;
     padding: 30px;
     margin: 20px auto;
     background-color: #e5c8b3;
     width: 1000px;
 
-    
 } 
 
 .ingredients {
@@ -57,9 +75,13 @@ ul, li, ol {
     padding: 30px;
     margin-bottom: 10px;
     background-color: #e5c8b3;
-    margin: 20px auto;
+    margin: 5px auto;
     
 } 
+
+.list { 
+    border: 3px solid black;
+}
 
 .steps {
     width: 1000px;
@@ -77,7 +99,9 @@ ul, li, ol {
     border: 20px ;
     padding: 30px;
     margin: 20px;
-    background-color: #e5c8b4;
+    background-color: #e3c3ac;
     margin: 20px auto;
-
+    font-weight: 500;
+    color: black;
+    text-align: center;
  }
